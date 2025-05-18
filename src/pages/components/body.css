@@ -1,0 +1,169 @@
+/* General container styles */
+.body-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* height:100vh;
+  width:100vw; */
+}
+
+/* First Section: Two Columns */
+.two-column-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color:white;
+  height:84vh;
+  width:100vw;
+}
+
+.column {
+  width: 45%;
+  padding: 20px;
+}
+
+.column-h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  align-items:left;
+  text-align:left;
+  font-weight:bold;
+}
+
+.column-p {
+  font-size: 20px;
+  font-style:italic;
+  line-height: 1.6;
+  text-align:left;
+  color: #333;
+}
+
+/* Second Section: Carousel */
+.carousel-section {
+  padding: 50px;
+  background-color: #0d9488;
+  text-align: center;
+}
+
+.carousel-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  height:70vh;
+  background-color: white;
+}
+
+.carousel-slide {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide {
+  font-size: 30px;
+  margin: 0;
+  border-color:rgb(168, 120, 132);
+  border-width:5px;
+  border-style:line;
+  border-radius:25px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #1a1f25;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+  border-color:transparent;
+  border-style:dashed;
+}
+
+.carousel-button.prev {
+  left: 15px;
+}
+
+.carousel-button.next {
+  right: 15px;
+}
+
+/* Third Section: Contact Us */
+.contact-section {
+  padding: 50px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 420px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form input {
+  width: 200px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.image{
+    height:60vh;
+    width:35vw;
+    border-radius:25px;
+
+}
+.column-h2{
+    font-size:20px;
+    font-weight:bold;
+}
+.whatsnew{
+    font-weight:bold;
+    font-size:36px;
+    color:#333;
+    font-family: "sans-serif";
+}
